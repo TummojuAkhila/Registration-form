@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>my form</title>
+		<style>
+			img{
+				margin-left:45%;
+				background-color:blue;
+				padding:10px;
+			}
+			#akhi{
+				margin-left:20%;
+				margin-right:20%;
+				background-color:powderblue;
+			}
+			.kila{
+				margin-left:20%;
+				margin-right:20%;
+				padding:15px;
+				background-color:orange;
+			}
+			.kila:hover{
+				background-color:yellow;
+
+
+			}
+			body{
+				background-color:orchid;
+
+
+}
+		</style>
+	</head>
+	<body>
+		<img src="mrcew.jpg" alt="logo" width="200px" height="200px" >
+		<fieldset id="akhi">
+		<legend>Registration form</legend>
+		<form action=""    method="post"  class="kila">
+			<table>
+			<tr>
+				<td>username:</td>
+				<td><input type="text"  name="uname" placeholder="name" required></td>
+			</tr>	
+
+			<tr>
+				<td>password:</td>
+				<td><input type="password"  name="pw" placeholder="password" required></td>
+			</tr>	
+
+<tr>
+				<td>mobile number:</td>
+				<td><input type="number"  name="phno" placeholder="mobile number" required></td>
+			</tr>	
+
+<tr>
+				<td>Email id:</td>
+				<td><input type="email"  name="email" placeholder="email id" required></td>
+			</tr>
+
+			<tr>
+				<td>DOB:</td>
+				<td><input type="date"  name="date" ></td>
+			</tr>
+       			<tr>
+				<td>gender:</td>
+				<td><input type="radio"  name="gen" value="male" required>Male
+				<input type="radio"  name="gen" value="female" required>Female
+				<input type="radio"  name="gen" value="others" required>others
+				</td>
+			</tr>
+			<tr>
+				<td>type of users:</td>
+				<td>
+					<select name="utype">
+					<option value="1">1st year</option>
+					<option value="2">2nd year</option>
+					<option value="3">3rd year</option>
+					<option value="4">4th year</option>
+						
+					</select>
+
+				</td>
+			</tr>
+			<tr>
+				<td>profile pic</td>
+				<td><input type="file" name="ufile"></td>
+			</tr>
+			<tr>
+			<td><input type="checkbox" value="i">I accept terms & conditions</td>	
+			</tr>
+			<tr>
+			<td><input type="submit" value="submit"></td>	
+			<td><input type="reset" value="clear"></td>	
+			</tr>
+			</table>
+		</form>
+		</fieldset>
+
+
+
+
+
+	</body>
+</html>
